@@ -1,0 +1,95 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .header .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 10px 0;
+    z-index: 1;
+  }
+  
+  .header .logo span {
+    color: #4da2f2;
+  }
+  
+  .header .slogan {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  .header .white-bar {
+    height: 1px;
+    background-color: #ffffff;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  /* Card */
+  .card {
+    width: 22rem;
+    background-color: #363a3e;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  /* Botões sociais */
+  .btn-social {
+    border: 2px solid #4da2f2;
+    color: #4da2f2;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.5rem;
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  .btn-social:hover {
+    background-color: #4da2f2;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(77, 162, 242, 0.8);
+  }
+  
+  .social-buttons-container {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Botão de Entrar */
+  .btn-enter {
+    background-color: #4da2f2;
+    color: #ffffff;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  .btn-enter:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #3a8ac1;
+  }
+  
+  .btn {
+    transition: all 0.3s ease-in-out;
+  }
+  

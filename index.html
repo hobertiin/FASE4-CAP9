@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InvestAI - Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="d-flex justify-content-center align-items-center vh-100"
+    style="background-color: #000000"
+  >
+    <!-- Início do Card -->
+    <div
+      class="card p-4 text-center shadow-lg"
+      style="width: 22rem; background-color: #363a3e; border-radius: 15px"
+    >
+      <!-- Cabeçalho -->
+      <div class="header">
+        <div class="white-bar"></div>
+        <h1 class="logo">Invest<span>AI</span></h1>
+        <p class="slogan">O futuro a serviço do seu sucesso!</p>
+        <div class="white-bar"></div>
+      </div>
+
+      <!-- Formulário -->
+      <form>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control form-control-lg"
+            id="conta"
+            placeholder="Conta"
+          />
+        </div>
+        <div class="mb-3">
+          <div class="input-group">
+            <input
+              type="password"
+              class="form-control form-control-lg"
+              id="senha"
+              placeholder="Senha"
+            />
+            <button class="btn btn-secondary" type="button">
+              <i class="bi bi-eye-slash"></i>
+            </button>
+          </div>
+        </div>
+        <div class="form-check mb-3 text-start">
+          <input class="form-check-input" type="checkbox" id="lembrarSenha" />
+          <label class="form-check-label text-white-50" for="lembrarSenha"
+            >Lembrar senha</label
+          >
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="social-buttons-container">
+            <button class="btn btn-social">
+              <i class="bi bi-google"></i>
+            </button>
+            <button class="btn btn-social">
+              <i class="bi bi-facebook"></i>
+            </button>
+          </div>
+          <button type="submit" class="btn w-100 btn-lg ms-3 btn-enter">
+            Entrar
+          </button>
+        </div>
+      </form>
+
+      <!-- Rodapé -->
+      <div class="mt-4">
+        <p style="color: #d9d9d9; margin-bottom: 0%">Não tem uma conta?</p>
+        <p style="margin-top: 0px">
+          <a href="#" style="color: #4da2f2">Crie aqui!</a>
+        </p>
+        <a href="#" style="color: #4da2f2">Esqueci a senha</a>
+      </div>
+    </div>
+  </body>
+</html>
